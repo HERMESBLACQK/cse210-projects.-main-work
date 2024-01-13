@@ -10,10 +10,8 @@ class Program
         // Call the PromptUserName function and save the return value
         string userName = PromptUserName();
 
-        // Call the PromptUserNumber function and save the return value
         int userNumber = PromptUserNumber();
 
-        // Call the SquareNumber function with the user's number and save the squared result
         int squaredNumber = SquareNumber(userNumber);
 
         DisplayResult(userName, squaredNumber);
