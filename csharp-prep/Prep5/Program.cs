@@ -16,11 +16,9 @@ class Program
         // Call the SquareNumber function with the user's number and save the squared result
         int squaredNumber = SquareNumber(userNumber);
 
-        // Call the DisplayResult function with the user's name and the squared number
         DisplayResult(userName, squaredNumber);
     }
 
-    // Function to display a welcome message
     static void DisplayWelcome()
     {
         Console.WriteLine("Welcome to the Program!");
@@ -43,7 +41,6 @@ class Program
         return number * number;
     }
 
-    // Function to display the result with the user's name and squared number
     static void DisplayResult(string userName, int squaredNumber)
     {
         Console.WriteLine($"{userName}, the square of your number is {squaredNumber}");
