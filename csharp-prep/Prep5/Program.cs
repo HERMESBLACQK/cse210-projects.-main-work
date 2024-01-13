@@ -4,10 +4,8 @@ class Program
 {
     static void Main()
     {
-        // Call the DisplayWelcome function
         DisplayWelcome();
 
-        // Call the PromptUserName function and save the return value
         string userName = PromptUserName();
 
         int userNumber = PromptUserNumber();
