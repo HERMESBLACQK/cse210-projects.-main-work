@@ -106,7 +106,7 @@ class Word
         isHidden = false;
     }
 
-    public string Text { get; }
+    public string Text { get;}
 
     public bool IsHidden => isHidden;
 
