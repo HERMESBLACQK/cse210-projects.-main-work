@@ -103,7 +103,7 @@ class Word
     public Word(string text)
     {
         Text = text;
-        isHidden = fals;
+        isHidden = false;
     }
 
     public string Text { get; }
