@@ -108,7 +108,7 @@ class Word
 
     public string Text { get; }
 
-    public bool IsHidden => isHidden ;
+    public bool IsHidden => isHidden;
 
     public void Hide()
     {
