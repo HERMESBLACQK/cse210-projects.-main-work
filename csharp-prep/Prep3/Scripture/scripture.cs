@@ -100,7 +100,7 @@ class Word
 {
     private bool isHidden;
 
-    public Word(string text)
+    public Word(string text )
     {
         Text = text;
         isHidden = false;
