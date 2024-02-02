@@ -25,6 +25,7 @@ class Scripture
     }
     public void addScripture(string refr)
     {
+        
         _refrence = refr;
     }
     // method to display the scripture added
