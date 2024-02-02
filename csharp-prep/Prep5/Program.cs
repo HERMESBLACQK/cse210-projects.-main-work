@@ -13,12 +13,13 @@ class Program
         int squaredNumber = SquareNumber(userNumber);
 
         DisplayResult(userName, squaredNumber);
-        
+
     }
 
     static void DisplayWelcome()
     {
         Console.WriteLine("Welcome to the Program!");
+        
     }
 
     static string PromptUserName()
