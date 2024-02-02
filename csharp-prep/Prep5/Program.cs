@@ -5,7 +5,7 @@ class Program
     static void Main()
     {
         DisplayWelcome();
-
+ 
         string userName = PromptUserName();
 
         int userNumber = PromptUserNumber();
