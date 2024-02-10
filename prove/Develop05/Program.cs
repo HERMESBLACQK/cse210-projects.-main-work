@@ -28,7 +28,7 @@ class Program
             string goalDesc = Console.ReadLine();
             Console.WriteLine("What is the amount of points associated with this goal? ");
             string goalPoints = Console.ReadLine();
-            
+
 
             // Returning lists of string values from the functions
             return new string[]{
@@ -87,6 +87,7 @@ class Program
 
                 //if 1 is entered
                 if (int.Parse(goalType) == 1)
+                
                 {
                     var goal = goalEntry();
                     string goalName = goal[0];
