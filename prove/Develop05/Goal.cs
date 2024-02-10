@@ -22,7 +22,7 @@ public abstract class Goals{
         _description = desc;
     }
     public virtual string getDesc(){
-        
+
         return _description;
     }
 
@@ -35,6 +35,7 @@ public abstract class Goals{
 
     public virtual int getCompletedTime(){
         return _completedTime;
+        
     }
     public abstract string display();
     public abstract string recordEvents();
