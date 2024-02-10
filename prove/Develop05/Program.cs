@@ -111,7 +111,7 @@ class Program
                     eternal.setName(goalName);
                     eternal.setDesc(desc);
                     eternal.setPoints(points);
-                    
+
                     //Use the getter and setter methods on the base class
                     // add the goal to the goal list.
                     goals.Add(eternal);
@@ -141,6 +141,7 @@ class Program
 
             //if 2 is entered
             else if (int.Parse(answer) == 2)
+            
             {
                 // loop through all the goals inside the list and use the display method on each of them.
                 
