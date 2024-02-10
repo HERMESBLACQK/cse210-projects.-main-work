@@ -24,10 +24,11 @@ class Program
             Console.WriteLine("What is the name of your goal? ");
             string goalName = Console.ReadLine();
             Console.WriteLine("What is a short description for your goal? ");
-            
+
             string goalDesc = Console.ReadLine();
             Console.WriteLine("What is the amount of points associated with this goal? ");
             string goalPoints = Console.ReadLine();
+            
 
             // Returning lists of string values from the functions
             return new string[]{
