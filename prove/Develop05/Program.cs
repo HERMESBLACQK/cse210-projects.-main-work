@@ -172,7 +172,7 @@ class Program
                 foreach (string line in lines)
                 {
                     Console.WriteLine(line);
-                    
+
                 }
 
             }
@@ -201,6 +201,7 @@ class Program
             }
         }
     void displayGoal(Goals goal){
+        
                 //use all the getter functions on the goals to display all the properties of each classes.
                 Console.WriteLine($"{goal.getName()}");
              }
