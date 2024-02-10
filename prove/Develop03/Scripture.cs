@@ -11,7 +11,7 @@ class Scripture
     {
         // default scripture to be displayed if no scripture enterd
         _refrence = "John 3:16";
-        _singleVerse = "for God so loved the world that he gave his only begotten son and whosoever ....";
+        _singleVerse = "for God so loved the world that he gave his only begotten son and whosoever ...  ";
 
 
     }
