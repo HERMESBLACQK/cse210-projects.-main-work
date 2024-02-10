@@ -5,7 +5,7 @@ public abstract class Goals{
     private string _description;
     private int _points;
     private int _completedTime;
-    
+
 
     public Goals(){ }
     public virtual void setName(string name){
@@ -22,6 +22,7 @@ public abstract class Goals{
         _description = desc;
     }
     public virtual string getDesc(){
+        
         return _description;
     }
 
