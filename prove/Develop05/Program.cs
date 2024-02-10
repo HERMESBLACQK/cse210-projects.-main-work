@@ -141,7 +141,7 @@ class Program
 
             //if 2 is entered
             else if (int.Parse(answer) == 2)
-            
+
             {
                 // loop through all the goals inside the list and use the display method on each of them.
                 
@@ -172,6 +172,7 @@ class Program
                 foreach (string line in lines)
                 {
                     Console.WriteLine(line);
+                    
                 }
 
             }
