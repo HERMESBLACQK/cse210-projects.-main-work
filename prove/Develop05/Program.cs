@@ -87,7 +87,7 @@ class Program
 
                 //if 1 is entered
                 if (int.Parse(goalType) == 1)
-                
+
                 {
                     var goal = goalEntry();
                     string goalName = goal[0];
@@ -111,6 +111,7 @@ class Program
                     eternal.setName(goalName);
                     eternal.setDesc(desc);
                     eternal.setPoints(points);
+                    
                     //Use the getter and setter methods on the base class
                     // add the goal to the goal list.
                     goals.Add(eternal);
