@@ -1,13 +1,23 @@
-public class Eternal:Goals{
+using System;
 
-    
-    public override string display()
+public class EternalGoal : Goal
+{
+    public EternalGoal(string shortName, string description, int points) : base(shortName, description, points)
     {
-        return $"{getName()}, {getDesc()}, {getPoints()}";
     }
-    public override string recordEvents(){
 
-        // this record event should take in the new point allocated and set it as the gained point then add it to the total points.
-        return "Eternal";
-        }
+    public override void RecordEvent()
+    {
+        // No need to implement for eternal goals
+    }
+
+    public override bool IsComplete()
+    {
+        return false; // Eternal goals are never complete
+    }
+
+    public override string GetStringRepresentation()
+    {
+        return $"{_shortName}: {_description} - {_points} points (Eternal)";
+    }
 }

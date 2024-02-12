@@ -1,44 +1,30 @@
-public abstract class Goals{
+using System;
 
-    private string _name;
+public class Goal
+{
+    protected internal string _shortName;
+    protected internal string _description;
+    protected internal int _points;
 
-    private string _description;
-    private int _points;
-    private int _completedTime;
-
-
-    public Goals(){ }
-    public virtual void setName(string name){
-        _name = name;
-    }
-    public virtual string getName(){
-        return _name;
-    }
-    public void setCompletedTime(int t){
-        _completedTime = t;
+    public Goal(string shortName, string description, int points)
+    {
+        _shortName = shortName;
+        _description = description;
+        _points = points;
     }
 
-    public void setDesc(string desc){
-        _description = desc;
-    }
-    public virtual string getDesc(){
-
-        return _description;
+    public virtual void RecordEvent()
+    {
+        throw new NotImplementedException();
     }
 
-    public void setPoints(int point){
-        _points = point;
-    }
-    public virtual string getPoints(){
-        return _name;
+    public virtual bool IsComplete()
+    {
+        throw new NotImplementedException();
     }
 
-    public virtual int getCompletedTime(){
-        return _completedTime;
-
+    public virtual string GetStringRepresentation()
+    {
+        throw new NotImplementedException();
     }
-    public abstract string display();
-    public abstract string recordEvents();
-
-
 }
