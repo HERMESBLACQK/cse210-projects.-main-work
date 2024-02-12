@@ -1,1 +1,0 @@
-CheckListGoal, Temple attendance,:(Attend the temple as much time as possible this year),50,100,2
